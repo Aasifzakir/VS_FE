@@ -1,0 +1,71 @@
+.lognWrappr {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: whitesmoke;
+  background-size: cover;
+  position: relative;
+  padding: 30px 80px;
+}
+
+.lognWrappr .lgnFrmWrp .title {
+  color: blueviolet;
+}
+
+.lognWrappr .lgnFrmWrp {
+  max-width: 450px;
+  width: 100%;
+  padding: 35px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+.lognWrappr .lgnFrmWrp .form_action_btns {
+  border: none;
+  padding: 0;
+}
+
+.lgnFrmWrp .login_top {
+  margin-bottom: 30px;
+}
+.lgnFrmWrp .login_btm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lgnFrmWrp .logoImgtop {
+  max-width: 150px;
+  margin: auto;
+}
+
+.lgnFrmWrp .login_top h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.lgnFrmWrp form label {
+  margin-bottom: 5px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .lognWrappr {
+    padding: 30px 20px;
+  }
+  .lognWrappr .lgnFrmWrp {
+    padding: 20px;
+  }
+  .lgnFrmWrp .login_top {
+    margin-bottom: 15px;
+  }
+  .rePassWrd {
+    padding: 20px;
+  }
+  .login_button .btnWrpr button {
+    height: 40px;
+    font-size: 1rem;
+  }
+}

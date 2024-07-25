@@ -1,0 +1,47 @@
+.register_container {
+    margin-bottom: 50px;
+}
+
+.form_action_btns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid grey;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  padding: 3px 8px;
+  min-width: 70px;
+}
+
+button.primary {
+  color: rgb(130, 29, 225);
+}
+
+button.secondary {
+  color: rgb(74, 74, 74);
+}
+
+.preview_container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.preview_container .preview_field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.preview_container .preview_field h6, .preview_container .preview_field p {
+    margin: 0;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  padding: 8px 0 8px 45px !important;
+}
